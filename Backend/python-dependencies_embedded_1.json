@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "Abc_Language",
+      "group": 0,
+      "level": 1,
+      "label": "Abc_Language"
+    },
+    {
+      "id": "Setl",
+      "group": 0,
+      "level": 1,
+      "label": "Setl"
+    },
+    {
+      "id": "Python",
+      "group": 0,
+      "level": 1,
+      "label": "Python"
+    },
+    {
+      "id": "Amoeba_Os",
+      "group": 0,
+      "level": 1,
+      "label": "Amoeba_Os"
+    },
+    {
+      "id": "Netherlands",
+      "group": 0,
+      "level": 1,
+      "label": "Netherlands"
+    },
+    {
+      "id": "Centrum_Wiskunde_And_Informatica",
+      "group": 0,
+      "level": 1,
+      "label": "Centrum_Wiskunde_And_Informatica"
+    },
+    {
+      "id": "Guido_Van_Rossum",
+      "group": 0,
+      "level": 1,
+      "label": "Guido_Van_Rossum"
+    },
+    {
+      "id": "Python_2_0",
+      "group": 0,
+      "level": 1,
+      "label": "Python_2_0"
+    },
+    {
+      "id": "Python_3_0",
+      "group": 0,
+      "level": 1,
+      "label": "Python_3_0"
+    },
+    {
+      "id": "Python_2_6_X",
+      "group": 0,
+      "level": 1,
+      "label": "Python_2_6_X"
+    },
+    {
+      "id": "Python_2_7_X",
+      "group": 0,
+      "level": 1,
+      "label": "Python_2_7_X"
+    },
+    {
+      "id": "Twotothree_Utility",
+      "group": 0,
+      "level": 1,
+      "label": "Twotothree_Utility"
+    },
+    {
+      "id": "List_Comprehensions",
+      "group": 0,
+      "level": 1,
+      "label": "List_Comprehensions"
+    },
+    {
+      "id": "Cycle_Detecting_Garbage_Collection",
+      "group": 0,
+      "level": 1,
+      "label": "Cycle_Detecting_Garbage_Collection"
+    },
+    {
+      "id": "Reference_Counting",
+      "group": 0,
+      "level": 1,
+      "label": "Reference_Counting"
+    },
+    {
+      "id": "Unicode_Support",
+      "group": 0,
+      "level": 1,
+      "label": "Unicode_Support"
+    },
+    {
+      "id": "1989-12",
+      "group": 0,
+      "level": 1,
+      "label": "1989-12"
+    },
+    {
+      "id": "2000-10-16",
+      "group": 0,
+      "level": 1,
+      "label": "2000-10-16"
+    },
+    {
+      "id": "2008-12-03",
+      "group": 0,
+      "level": 1,
+      "label": "2008-12-03"
+    }
+  ],
+  "links": [
+    {
+      "source": "Abc_Language",
+      "target": "Setl",
+      "strength": 0.7,
+      "linkName": "INSPIRED_BY"
+    },
+    {
+      "source": "Setl",
+      "target": "Amoeba_Os",
+      "strength": 0.7,
+      "linkName": "INTERFACES_WITH"
+    },
+    {
+      "source": "Python",
+      "target": "Guido_Van_Rossum",
+      "strength": 0.7,
+      "linkName": "FOUNDED_BY"
+    },
+    {
+      "source": "Python",
+      "target": "Abc_Language",
+      "strength": 0.7,
+      "linkName": "INSPIRED_BY"
+    },
+    {
+      "source": "Python",
+      "target": "1989-12",
+      "strength": 0.7,
+      "linkName": "STARTED_ON"
+    },
+    {
+      "source": "Centrum_Wiskunde_And_Informatica",
+      "target": "Netherlands",
+      "strength": 0.7,
+      "linkName": "HEADQUARTERED_IN"
+    },
+    {
+      "source": "Centrum_Wiskunde_And_Informatica",
+      "target": "Netherlands",
+      "strength": 0.7,
+      "linkName": "LOCATED_IN"
+    },
+    {
+      "source": "Guido_Van_Rossum",
+      "target": "Centrum_Wiskunde_And_Informatica",
+      "strength": 0.7,
+      "linkName": "WORKS_FOR"
+    },
+    {
+      "source": "Guido_Van_Rossum",
+      "target": "Netherlands",
+      "strength": 0.7,
+      "linkName": "LOCATED_IN"
+    },
+    {
+      "source": "Python_2_0",
+      "target": "Python",
+      "strength": 0.7,
+      "linkName": "VERSION_OF"
+    },
+    {
+      "source": "Python_2_0",
+      "target": "2000-10-16",
+      "strength": 0.7,
+      "linkName": "RELEASED_ON"
+    },
+    {
+      "source": "Python_3_0",
+      "target": "Python",
+      "strength": 0.7,
+      "linkName": "VERSION_OF"
+    },
+    {
+      "source": "Python_3_0",
+      "target": "2008-12-03",
+      "strength": 0.7,
+      "linkName": "RELEASED_ON"
+    },
+    {
+      "source": "Python_2_6_X",
+      "target": "Python",
+      "strength": 0.7,
+      "linkName": "VERSION_OF"
+    },
+    {
+      "source": "Python_2_7_X",
+      "target": "Python",
+      "strength": 0.7,
+      "linkName": "VERSION_OF"
+    },
+    {
+      "source": "Twotothree_Utility",
+      "target": "Python_3_0",
+      "strength": 0.7,
+      "linkName": "FEATURE_OF"
+    },
+    {
+      "source": "List_Comprehensions",
+      "target": "Python_2_0",
+      "strength": 0.7,
+      "linkName": "FEATURE_OF"
+    },
+    {
+      "source": "Cycle_Detecting_Garbage_Collection",
+      "target": "Python_2_0",
+      "strength": 0.7,
+      "linkName": "FEATURE_OF"
+    },
+    {
+      "source": "Reference_Counting",
+      "target": "Python_2_0",
+      "strength": 0.7,
+      "linkName": "FEATURE_OF"
+    },
+    {
+      "source": "Unicode_Support",
+      "target": "Python_2_0",
+      "strength": 0.7,
+      "linkName": "FEATURE_OF"
+    }
+  ]
+}

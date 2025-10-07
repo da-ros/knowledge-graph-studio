@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "id": "John_Smith",
+      "group": 0,
+      "level": 1,
+      "label": "John_Smith"
+    },
+    {
+      "id": "Jane_Doe",
+      "group": 0,
+      "level": 1,
+      "label": "Jane_Doe"
+    },
+    {
+      "id": "Europe",
+      "group": 0,
+      "level": 1,
+      "label": "Europe"
+    },
+    {
+      "id": "Techcorp",
+      "group": 0,
+      "level": 1,
+      "label": "Techcorp"
+    },
+    {
+      "id": "Venture_Capital_Partners",
+      "group": 0,
+      "level": 1,
+      "label": "Venture_Capital_Partners"
+    },
+    {
+      "id": "Ai_Platform",
+      "group": 0,
+      "level": 1,
+      "label": "Ai_Platform"
+    },
+    {
+      "id": "2020",
+      "group": 0,
+      "level": 1,
+      "label": "2020"
+    }
+  ],
+  "links": [
+    {
+      "source": "John_Smith",
+      "target": "Techcorp",
+      "strength": 0.7,
+      "linkName": "WORKS_FOR"
+    },
+    {
+      "source": "Jane_Doe",
+      "target": "Techcorp",
+      "strength": 0.7,
+      "linkName": "WORKS_FOR"
+    },
+    {
+      "source": "Techcorp",
+      "target": "John_Smith",
+      "strength": 0.7,
+      "linkName": "FOUNDED_BY"
+    },
+    {
+      "source": "Techcorp",
+      "target": "Jane_Doe",
+      "strength": 0.7,
+      "linkName": "FOUNDED_BY"
+    },
+    {
+      "source": "Techcorp",
+      "target": "Europe",
+      "strength": 0.7,
+      "linkName": "EXPANDED_TO"
+    },
+    {
+      "source": "Techcorp",
+      "target": "Ai_Platform",
+      "strength": 0.7,
+      "linkName": "DEVELOPED"
+    },
+    {
+      "source": "Techcorp",
+      "target": "2020",
+      "strength": 0.7,
+      "linkName": "STARTED_ON"
+    },
+    {
+      "source": "Venture_Capital_Partners",
+      "target": "Techcorp",
+      "strength": 0.7,
+      "linkName": "INVESTED_IN"
+    },
+    {
+      "source": "Ai_Platform",
+      "target": "Techcorp",
+      "strength": 0.7,
+      "linkName": "CREATED_BY"
+    }
+  ]
+}

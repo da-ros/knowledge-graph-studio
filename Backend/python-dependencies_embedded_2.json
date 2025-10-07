@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "id": "Iphone",
+      "group": 0,
+      "level": 1,
+      "label": "Iphone"
+    },
+    {
+      "id": "Ipad",
+      "group": 0,
+      "level": 1,
+      "label": "Ipad"
+    },
+    {
+      "id": "Mac_Computers",
+      "group": 0,
+      "level": 1,
+      "label": "Mac_Computers"
+    },
+    {
+      "id": "Apple_Park",
+      "group": 0,
+      "level": 1,
+      "label": "Apple_Park"
+    },
+    {
+      "id": "Cupertino_California",
+      "group": 0,
+      "level": 1,
+      "label": "Cupertino_California"
+    },
+    {
+      "id": "Worldwide",
+      "group": 0,
+      "level": 1,
+      "label": "Worldwide"
+    },
+    {
+      "id": "Apple_Inc",
+      "group": 0,
+      "level": 1,
+      "label": "Apple_Inc"
+    },
+    {
+      "id": "Microsoft",
+      "group": 0,
+      "level": 1,
+      "label": "Microsoft"
+    },
+    {
+      "id": "Google",
+      "group": 0,
+      "level": 1,
+      "label": "Google"
+    },
+    {
+      "id": "Samsung",
+      "group": 0,
+      "level": 1,
+      "label": "Samsung"
+    },
+    {
+      "id": "Steve_Jobs",
+      "group": 0,
+      "level": 1,
+      "label": "Steve_Jobs"
+    },
+    {
+      "id": "Steve_Wozniak",
+      "group": 0,
+      "level": 1,
+      "label": "Steve_Wozniak"
+    },
+    {
+      "id": "Ronald_Wayne",
+      "group": 0,
+      "level": 1,
+      "label": "Ronald_Wayne"
+    },
+    {
+      "id": "Tim_Cook",
+      "group": 0,
+      "level": 1,
+      "label": "Tim_Cook"
+    }
+  ],
+  "links": [
+    {
+      "source": "Iphone",
+      "target": "Apple_Inc",
+      "strength": 0.7,
+      "linkName": "DEVELOPED"
+    },
+    {
+      "source": "Ipad",
+      "target": "Apple_Inc",
+      "strength": 0.7,
+      "linkName": "DEVELOPED"
+    },
+    {
+      "source": "Mac_Computers",
+      "target": "Apple_Inc",
+      "strength": 0.7,
+      "linkName": "DEVELOPED"
+    },
+    {
+      "source": "Apple_Park",
+      "target": "Cupertino_California",
+      "strength": 0.7,
+      "linkName": "LOCATED_IN"
+    },
+    {
+      "source": "Apple_Inc",
+      "target": "Steve_Jobs",
+      "strength": 0.7,
+      "linkName": "FOUNDED_BY"
+    },
+    {
+      "source": "Apple_Inc",
+      "target": "Steve_Wozniak",
+      "strength": 0.7,
+      "linkName": "FOUNDED_BY"
+    },
+    {
+      "source": "Apple_Inc",
+      "target": "Ronald_Wayne",
+      "strength": 0.7,
+      "linkName": "FOUNDED_BY"
+    },
+    {
+      "source": "Apple_Inc",
+      "target": "Apple_Park",
+      "strength": 0.7,
+      "linkName": "HEADQUARTERED_IN"
+    },
+    {
+      "source": "Apple_Inc",
+      "target": "Cupertino_California",
+      "strength": 0.7,
+      "linkName": "LOCATED_IN"
+    },
+    {
+      "source": "Apple_Inc",
+      "target": "Worldwide",
+      "strength": 0.7,
+      "linkName": "OPERATES_IN"
+    },
+    {
+      "source": "Apple_Inc",
+      "target": "Microsoft",
+      "strength": 0.7,
+      "linkName": "COMPETES_WITH"
+    },
+    {
+      "source": "Apple_Inc",
+      "target": "Google",
+      "strength": 0.7,
+      "linkName": "COMPETES_WITH"
+    },
+    {
+      "source": "Apple_Inc",
+      "target": "Samsung",
+      "strength": 0.7,
+      "linkName": "COMPETES_WITH"
+    },
+    {
+      "source": "Tim_Cook",
+      "target": "Apple_Inc",
+      "strength": 0.7,
+      "linkName": "WORKS_FOR"
+    }
+  ]
+}

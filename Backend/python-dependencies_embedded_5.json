@@ -1,0 +1,162 @@
+{
+  "nodes": [
+    {
+      "id": "Tech_Conference_2015",
+      "group": 0,
+      "level": 1,
+      "label": "Tech_Conference_2015"
+    },
+    {
+      "id": "I",
+      "group": 0,
+      "level": 1,
+      "label": "I"
+    },
+    {
+      "id": "Sarah",
+      "group": 0,
+      "level": 1,
+      "label": "Sarah"
+    },
+    {
+      "id": "Emma",
+      "group": 0,
+      "level": 1,
+      "label": "Emma"
+    },
+    {
+      "id": "Jake",
+      "group": 0,
+      "level": 1,
+      "label": "Jake"
+    },
+    {
+      "id": "New_York_City",
+      "group": 0,
+      "level": 1,
+      "label": "New_York_City"
+    },
+    {
+      "id": "California",
+      "group": 0,
+      "level": 1,
+      "label": "California"
+    },
+    {
+      "id": "San_Francisco",
+      "group": 0,
+      "level": 1,
+      "label": "San_Francisco"
+    },
+    {
+      "id": "Computer_Science",
+      "group": 0,
+      "level": 1,
+      "label": "Computer_Science"
+    },
+    {
+      "id": "Stanford_University",
+      "group": 0,
+      "level": 1,
+      "label": "Stanford_University"
+    },
+    {
+      "id": "Google",
+      "group": 0,
+      "level": 1,
+      "label": "Google"
+    }
+  ],
+  "links": [
+    {
+      "source": "I",
+      "target": "New_York_City",
+      "strength": 0.7,
+      "linkName": "BORN_IN"
+    },
+    {
+      "source": "I",
+      "target": "California",
+      "strength": 0.7,
+      "linkName": "MOVED_TO"
+    },
+    {
+      "source": "I",
+      "target": "San_Francisco",
+      "strength": 0.7,
+      "linkName": "LOCATED_IN"
+    },
+    {
+      "source": "I",
+      "target": "Stanford_University",
+      "strength": 0.7,
+      "linkName": "STUDIED_AT"
+    },
+    {
+      "source": "I",
+      "target": "Computer_Science",
+      "strength": 0.7,
+      "linkName": "STUDIED"
+    },
+    {
+      "source": "I",
+      "target": "Tech_Conference_2015",
+      "strength": 0.7,
+      "linkName": "ATTENDED"
+    },
+    {
+      "source": "I",
+      "target": "Google",
+      "strength": 0.7,
+      "linkName": "WORKS_FOR"
+    },
+    {
+      "source": "I",
+      "target": "Sarah",
+      "strength": 0.7,
+      "linkName": "MARRIED_TO"
+    },
+    {
+      "source": "I",
+      "target": "Emma",
+      "strength": 0.7,
+      "linkName": "PARENT_OF"
+    },
+    {
+      "source": "I",
+      "target": "Jake",
+      "strength": 0.7,
+      "linkName": "PARENT_OF"
+    },
+    {
+      "source": "Sarah",
+      "target": "Google",
+      "strength": 0.7,
+      "linkName": "WORKS_FOR"
+    },
+    {
+      "source": "Sarah",
+      "target": "San_Francisco",
+      "strength": 0.7,
+      "linkName": "LOCATED_IN"
+    },
+    {
+      "source": "Sarah",
+      "target": "Tech_Conference_2015",
+      "strength": 0.7,
+      "linkName": "ATTENDED"
+    },
+    {
+      "source": "Sarah",
+      "target": "Emma",
+      "strength": 0.7,
+      "linkName": "PARENT_OF"
+    },
+    {
+      "source": "Sarah",
+      "target": "Jake",
+      "strength": 0.7,
+      "linkName": "PARENT_OF"
+    }
+  ]
+}
