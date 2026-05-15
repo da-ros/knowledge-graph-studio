@@ -70,8 +70,8 @@ Graph Normalization → MongoDB Storage → D3.js Visualization
 ### 1. Clone & Setup
 
 ```bash
-git clone https://github.com/da-ros/Text2Graph.git
-cd Text2Graph
+git clone https://github.com/da-ros/knowledge-graph-studio.git
+cd knowledge-graph-studio
 ```
 
 ### 2. Backend Setup
@@ -346,7 +346,7 @@ npm run lint
 ### Code Structure
 
 ```
-Text2Graph/
+knowledge-graph-studio/
 ├── Backend/
 │   ├── main.py                 # FastAPI application
 │   ├── knowledge_graph_extractor.py  # AI processing
